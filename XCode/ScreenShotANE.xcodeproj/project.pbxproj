@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E8683F1852DF8A002CBD2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E8683E1852DF8A002CBD2E /* Cocoa.framework */; };
+		C2E868491852DF8A002CBD2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E868471852DF8A002CBD2E /* InfoPlist.strings */; };
+		C2E8684D1852DF8B002CBD2E /* ScreenShotANE.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E8684C1852DF8B002CBD2E /* ScreenShotANE.m */; };
+		C2E868551852DF8B002CBD2E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E868541852DF8B002CBD2E /* SenTestingKit.framework */; };
+		C2E868561852DF8B002CBD2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E8683E1852DF8A002CBD2E /* Cocoa.framework */; };
+		C2E868591852DF8B002CBD2E /* ScreenShotANE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E8683B1852DF8A002CBD2E /* ScreenShotANE.framework */; };
+		C2E8685F1852DF8B002CBD2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2E8685D1852DF8B002CBD2E /* InfoPlist.strings */; };
+		C2E868621852DF8B002CBD2E /* ScreenShotANE.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E868611852DF8B002CBD2E /* ScreenShotANE.m */; };
+		C2E86870185329ED002CBD2E /* Adobe AIR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E8686F185329ED002CBD2E /* Adobe AIR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E868571852DF8B002CBD2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E868321852DF8A002CBD2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E8683A1852DF8A002CBD2E;
+			remoteInfo = SampleANE3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2E8683B1852DF8A002CBD2E /* ScreenShotANE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenShotANE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E8683E1852DF8A002CBD2E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C2E868411852DF8A002CBD2E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2E868421852DF8A002CBD2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2E868431852DF8A002CBD2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2E868461852DF8A002CBD2E /* ScreenShotANE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenShotANE-Info.plist"; sourceTree = "<group>"; };
+		C2E868481852DF8A002CBD2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E8684A1852DF8B002CBD2E /* ScreenShotANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenShotANE-Prefix.pch"; sourceTree = "<group>"; };
+		C2E8684B1852DF8B002CBD2E /* ScreenShotANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenShotANE.h; sourceTree = "<group>"; };
+		C2E8684C1852DF8B002CBD2E /* ScreenShotANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenShotANE.m; sourceTree = "<group>"; };
+		C2E868531852DF8B002CBD2E /* ScreenShotANETests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenShotANETests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E868541852DF8B002CBD2E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C2E8685C1852DF8B002CBD2E /* ScreenShotANETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenShotANETests-Info.plist"; sourceTree = "<group>"; };
+		C2E8685E1852DF8B002CBD2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2E868601852DF8B002CBD2E /* ScreenShotANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenShotANE.h; sourceTree = "<group>"; };
+		C2E868611852DF8B002CBD2E /* ScreenShotANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenShotANE.m; sourceTree = "<group>"; };
+		C2E8686F185329ED002CBD2E /* Adobe AIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Adobe AIR.framework"; path = "../../../../Applications/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac/Adobe AIR.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E868371852DF8A002CBD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E8683F1852DF8A002CBD2E /* Cocoa.framework in Frameworks */,
+				C2E86870185329ED002CBD2E /* Adobe AIR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E8684F1852DF8B002CBD2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E868551852DF8B002CBD2E /* SenTestingKit.framework in Frameworks */,
+				C2E868561852DF8B002CBD2E /* Cocoa.framework in Frameworks */,
+				C2E868591852DF8B002CBD2E /* ScreenShotANE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E868311852DF8A002CBD2E = {
+			isa = PBXGroup;
+			children = (
+				C2E8686F185329ED002CBD2E /* Adobe AIR.framework */,
+				C2E868441852DF8A002CBD2E /* ScreenShotANE */,
+				C2E8685A1852DF8B002CBD2E /* ScreenShotANETests */,
+				C2E8683D1852DF8A002CBD2E /* Frameworks */,
+				C2E8683C1852DF8A002CBD2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E8683C1852DF8A002CBD2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8683B1852DF8A002CBD2E /* ScreenShotANE.framework */,
+				C2E868531852DF8B002CBD2E /* ScreenShotANETests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E8683D1852DF8A002CBD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8683E1852DF8A002CBD2E /* Cocoa.framework */,
+				C2E868541852DF8B002CBD2E /* SenTestingKit.framework */,
+				C2E868401852DF8A002CBD2E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2E868401852DF8A002CBD2E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E868411852DF8A002CBD2E /* AppKit.framework */,
+				C2E868421852DF8A002CBD2E /* CoreData.framework */,
+				C2E868431852DF8A002CBD2E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C2E868441852DF8A002CBD2E /* ScreenShotANE */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8684B1852DF8B002CBD2E /* ScreenShotANE.h */,
+				C2E8684C1852DF8B002CBD2E /* ScreenShotANE.m */,
+				C2E868451852DF8A002CBD2E /* Supporting Files */,
+			);
+			name = ScreenShotANE;
+			path = SampleANE3;
+			sourceTree = "<group>";
+		};
+		C2E868451852DF8A002CBD2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E868461852DF8A002CBD2E /* ScreenShotANE-Info.plist */,
+				C2E868471852DF8A002CBD2E /* InfoPlist.strings */,
+				C2E8684A1852DF8B002CBD2E /* ScreenShotANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E8685A1852DF8B002CBD2E /* ScreenShotANETests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E868601852DF8B002CBD2E /* ScreenShotANE.h */,
+				C2E868611852DF8B002CBD2E /* ScreenShotANE.m */,
+				C2E8685B1852DF8B002CBD2E /* Supporting Files */,
+			);
+			name = ScreenShotANETests;
+			path = SampleANE3Tests;
+			sourceTree = "<group>";
+		};
+		C2E8685B1852DF8B002CBD2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2E8685C1852DF8B002CBD2E /* ScreenShotANETests-Info.plist */,
+				C2E8685D1852DF8B002CBD2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2E868381852DF8A002CBD2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2E8683A1852DF8A002CBD2E /* ScreenShotANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E868651852DF8B002CBD2E /* Build configuration list for PBXNativeTarget "ScreenShotANE" */;
+			buildPhases = (
+				C2E868361852DF8A002CBD2E /* Sources */,
+				C2E868371852DF8A002CBD2E /* Frameworks */,
+				C2E868381852DF8A002CBD2E /* Headers */,
+				C2E868391852DF8A002CBD2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenShotANE;
+			productName = SampleANE3;
+			productReference = C2E8683B1852DF8A002CBD2E /* ScreenShotANE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2E868521852DF8B002CBD2E /* ScreenShotANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E868681852DF8B002CBD2E /* Build configuration list for PBXNativeTarget "ScreenShotANETests" */;
+			buildPhases = (
+				C2E8684E1852DF8B002CBD2E /* Sources */,
+				C2E8684F1852DF8B002CBD2E /* Frameworks */,
+				C2E868501852DF8B002CBD2E /* Resources */,
+				C2E868511852DF8B002CBD2E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E868581852DF8B002CBD2E /* PBXTargetDependency */,
+			);
+			name = ScreenShotANETests;
+			productName = SampleANE3Tests;
+			productReference = C2E868531852DF8B002CBD2E /* ScreenShotANETests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E868321852DF8A002CBD2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Riaxe Systems";
+			};
+			buildConfigurationList = C2E868351852DF8A002CBD2E /* Build configuration list for PBXProject "ScreenShotANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2E868311852DF8A002CBD2E;
+			productRefGroup = C2E8683C1852DF8A002CBD2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E8683A1852DF8A002CBD2E /* ScreenShotANE */,
+				C2E868521852DF8B002CBD2E /* ScreenShotANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E868391852DF8A002CBD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E868491852DF8A002CBD2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E868501852DF8B002CBD2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E8685F1852DF8B002CBD2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2E868511852DF8B002CBD2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E868361852DF8A002CBD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E8684D1852DF8B002CBD2E /* ScreenShotANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E8684E1852DF8B002CBD2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E868621852DF8B002CBD2E /* ScreenShotANE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E868581852DF8B002CBD2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E8683A1852DF8A002CBD2E /* ScreenShotANE */;
+			targetProxy = C2E868571852DF8B002CBD2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E868471852DF8A002CBD2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E868481852DF8A002CBD2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2E8685D1852DF8B002CBD2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E8685E1852DF8B002CBD2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E868631852DF8B002CBD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Adobe,
+					Flash,
+					Builder,
+					4.6/sdks/4.6.0/runtimes/air/mac,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weakFramework",
+				);
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C2E868641852DF8B002CBD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Applications/Adobe,
+					Flash,
+					Builder,
+					4.6/sdks/4.6.0/runtimes/air/mac,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-flat_namespace",
+					"-weakFramework",
+				);
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C2E868661852DF8B002CBD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleANE3/ScreenShotANE-Prefix.pch";
+				GCC_VERSION = "LLVM GCC 4.2";
+				INFOPLIST_FILE = "SampleANE3/ScreenShotANE-Info.plist";
+				PRODUCT_NAME = ScreenShotANE;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C2E868671852DF8B002CBD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleANE3/ScreenShotANE-Prefix.pch";
+				GCC_VERSION = "LLVM GCC 4.2";
+				INFOPLIST_FILE = "SampleANE3/ScreenShotANE-Info.plist";
+				PRODUCT_NAME = ScreenShotANE;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C2E868691852DF8B002CBD2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleANE3/SampleANE3-Prefix.pch";
+				INFOPLIST_FILE = "SampleANE3Tests/ScreenShotANETests-Info.plist";
+				PRODUCT_NAME = ScreenShotANETests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C2E8686A1852DF8B002CBD2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleANE3/SampleANE3-Prefix.pch";
+				INFOPLIST_FILE = "SampleANE3Tests/ScreenShotANETests-Info.plist";
+				PRODUCT_NAME = ScreenShotANETests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E868351852DF8A002CBD2E /* Build configuration list for PBXProject "ScreenShotANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E868631852DF8B002CBD2E /* Debug */,
+				C2E868641852DF8B002CBD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E868651852DF8B002CBD2E /* Build configuration list for PBXNativeTarget "ScreenShotANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E868661852DF8B002CBD2E /* Debug */,
+				C2E868671852DF8B002CBD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E868681852DF8B002CBD2E /* Build configuration list for PBXNativeTarget "ScreenShotANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E868691852DF8B002CBD2E /* Debug */,
+				C2E8686A1852DF8B002CBD2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E868321852DF8A002CBD2E /* Project object */;
+}
