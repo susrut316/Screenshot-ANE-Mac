@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+	<id>com.riaxe.extensions.HelloWorld</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms> 
+	<platform name="MacOS-x86">
+		<!-- Application deployment means that the code library is deployed with each AIR application that uses it. The code library must be included in the extension package. -->
+			<applicationDeployment>
+				<nativeLibrary>SampleANE3.framework</nativeLibrary>
+				<initializer>initializer</initializer>
+				<finalizer>finalizer</finalizer>
+			</applicationDeployment> 
+		</platform>
+	</platforms> 
+	
+</extension>

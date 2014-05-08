@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-components />
+    <feature-files />
+  </features>
+  <components>
+    <component className="com.riaxe.extensions:HelloWorld" name="HelloWorld" uri="http://ns.adobe.com/air/application/3.1"  />
+  </components>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/riaxe/extensions/HelloWorld" mod="1386584109000" signatureChecksum="3402918752" >
+        <def id="com.riaxe.extensions:HelloWorld" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="_3543fb63a65c15440c1003dcc11fffa9db5db53918c89328c2d31c11f5abc9b6_flash_display_Sprite" mod="1386584161308" signatureChecksum="2537454275" >
+        <def id="_3543fb63a65c15440c1003dcc11fffa9db5db53918c89328c2d31c11f5abc9b6_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="cab969948254365fe841f526305bbbc484eebc377401bfa8f75c28a28e81848e"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

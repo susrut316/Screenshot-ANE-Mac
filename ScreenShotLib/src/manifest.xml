@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<componentPackage>
+	<component id="HelloWorld" class="com.riaxe.extensions.HelloWorld" />
+</componentPackage>
